@@ -1,1 +1,99 @@
-# Banking-Application-Java
+# Apna Wallet - Banking Application
+
+This is a simple **Banking Application** built using **Java** and **Swing**. The application provides a graphical user interface (GUI) for managing basic banking operations, such as logging in, account management, and performing transactions.
+
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+This application includes the following features:
+
+- **User Login**: Secure login system with account number and PIN authentication.
+- **Close Button Interaction**: Custom close button with hover effects.
+- **Dynamic UI Components**: User-friendly GUI built with Java Swing components.
+- **Error Handling**: Input validation with error dialogs.
+- **Seamless Navigation**: Simple navigation between different screens (e.g., Home Page, Register Frame).
+
+## Technologies Used
+- **Java**: 17.0.10
+- **Swing**: Java's built-in GUI toolkit for creating graphical interfaces.
+- **AWT**: Abstract Window Toolkit for UI event handling.
+
+
+## Project Structure
+Here is the directory structure of the project:
+
+```
+└──src/
+|   └── GraphicsPack/
+|   |   ├── LoginFrame.java
+|   |   ├── RegisterFrame.java
+|   |   ├── UIUtils.java
+|   |   └── ...
+|   ├── Images/
+|   |   ├── close.png
+|   |   ├── logo.png
+|   |   └── ...
+|   └── pack/
+|   |   ├── Account.java
+|   |   ├── AccountLogin.java
+|   |   ├── AccountRegistration.java
+|   |   └── ...
+|   └── run.java
+├── .gitignore
+├── LICENSE
+└── README.md
+```
+
+## Setup and Installation
+Follow these steps to set up and run the project:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Mohammad-Subhan/ApnaWallet-Banking-Application.git
+   cd ApnaWallet-Banking-Application
+   ```
+
+2. **Compile the Code**:
+   Change directory to src
+   ```bash
+   cd src
+   ```
+   Use your preferred IDE or compile manually:
+   ```bash
+   javac run.java
+   ```
+
+3. **Run the Application**:
+   Execute the main script:
+   ```bash
+   java run.java
+   ```
+
+4. **Assets Path**:
+   Ensure that the `Images` folder is correctly placed relative to your classpath, so image icons load properly.
+
+
+## Usage
+- Launch the application to see the **Login Screen**.
+- Input a valid **Account Number** and **PIN** to log in.
+- Use the **Register** link to create a new account.
+- Navigate through the GUI to access other features.
+
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+
+## Author
+Developed by **Mohammad-Subhan**.
+
+
+Thank you for checking out the project!
