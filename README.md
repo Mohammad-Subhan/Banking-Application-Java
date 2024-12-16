@@ -9,8 +9,6 @@ This is a simple **Banking Application** built using **Java** and **Swing**. The
 - [Project Structure](#project-structure)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
