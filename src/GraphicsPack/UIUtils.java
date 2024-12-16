@@ -8,6 +8,7 @@ import java.util.HashMap;
 
 public class UIUtils {
 
+    public static final String IMAGES_PATH = "./Images/";
     public static final Color BG_COLOR = new Color(0x192731);
     public static final Color SC_COLOR = new Color(0x6cd89e);
     public static final Color SP_COLOR = new Color(0x34414a);

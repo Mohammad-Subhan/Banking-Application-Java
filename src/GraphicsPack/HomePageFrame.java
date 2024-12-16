@@ -70,7 +70,7 @@ public class HomePageFrame implements ActionListener {
         closeButton.setBackground(UIUtils.BG_COLOR);
         closeButton.setFocusable(false);
         closeButton.setBorder(null);
-        ImageIcon imageIcon = new ImageIcon(".\\Images\\close.png");
+        ImageIcon imageIcon = new ImageIcon(UIUtils.IMAGES_PATH + "close.png");
         closeButton.setIcon(imageIcon);
         closeButton.addMouseListener(new java.awt.event.MouseAdapter() {
 
@@ -178,7 +178,7 @@ public class HomePageFrame implements ActionListener {
 
         // ------------------ Cash Deposit 2 Button ------------------------------------
         cashDepositButton2.setText("<html><font size='4'>Deposit Amount</font></html>");
-        ImageIcon depositIcon = new ImageIcon(".\\Images\\deposit.png");
+        ImageIcon depositIcon = new ImageIcon(UIUtils.IMAGES_PATH + "deposit.png");
         cashDepositButton2.setIcon(depositIcon);
         cashDepositButton2.setIconTextGap(20);
         cashDepositButton2.setBounds(265, 230, 230, 65);
@@ -191,7 +191,7 @@ public class HomePageFrame implements ActionListener {
 
         // ------------------ Cash Withdrawl Button ------------------------------------
         cashWithdrawlButton.setText("<html><font size='4'>Withdraw Amount</font></html>");
-        ImageIcon withdrawIcon = new ImageIcon(".\\Images\\withdraw.png");
+        ImageIcon withdrawIcon = new ImageIcon(UIUtils.IMAGES_PATH + "withdraw.png");
         cashWithdrawlButton.setIcon(withdrawIcon);
         cashWithdrawlButton.setIconTextGap(20);
         cashWithdrawlButton.setBounds(525, 230, 230, 65);
@@ -204,7 +204,7 @@ public class HomePageFrame implements ActionListener {
 
         // ------------------ Tansfer Amount Button ------------------------------------
         transferAmount.setText("<html><font size='4'>Transfer Amount</font></html>");
-        ImageIcon transferIcon = new ImageIcon(".\\Images\\transfer.png");
+        ImageIcon transferIcon = new ImageIcon(UIUtils.IMAGES_PATH + "transfer.png");
         transferAmount.setIcon(transferIcon);
         transferAmount.setIconTextGap(20);
         transferAmount.setBounds(265, 320, 230, 65);
@@ -217,7 +217,7 @@ public class HomePageFrame implements ActionListener {
 
         // ------------------ Pin Change Button ------------------------------------
         pinChangeButton.setText("<html><font size='4'>Pin Change</font></html>");
-        ImageIcon pinChangeIcon = new ImageIcon(".\\Images\\pinChange.png");
+        ImageIcon pinChangeIcon = new ImageIcon(UIUtils.IMAGES_PATH + "pinChange.png");
         pinChangeButton.setIcon(pinChangeIcon);
         pinChangeButton.setIconTextGap(20);
         pinChangeButton.setBounds(525, 320, 230, 65);
@@ -488,7 +488,7 @@ public class HomePageFrame implements ActionListener {
         closeButton.setBackground(UIUtils.BG_COLOR);
         closeButton.setFocusable(false);
         closeButton.setBorder(null);
-        ImageIcon imageIcon = new ImageIcon(".\\Images\\close.png");
+        ImageIcon imageIcon = new ImageIcon(UIUtils.IMAGES_PATH + "close.png");
         closeButton.setIcon(imageIcon);
         closeButton.addMouseListener(new java.awt.event.MouseAdapter() {
 
@@ -854,7 +854,7 @@ public class HomePageFrame implements ActionListener {
             @Override
             protected JButton createArrowButton() {
                 JButton button = new JButton();
-                button.setIcon(new ImageIcon(".\\Images\\down_arrow.png"));
+                button.setIcon(new ImageIcon(UIUtils.IMAGES_PATH + "down_arrow.png"));
                 button.setBackground(Color.WHITE);
                 button.setBorder(BorderFactory.createEmptyBorder());
                 return button;
@@ -864,7 +864,7 @@ public class HomePageFrame implements ActionListener {
             @Override
             protected JButton createArrowButton() {
                 JButton button = new JButton();
-                button.setIcon(new ImageIcon(".\\Images\\down_arrow.png"));
+                button.setIcon(new ImageIcon(UIUtils.IMAGES_PATH + "down_arrow.png"));
                 button.setBackground(Color.WHITE);
                 button.setBorder(BorderFactory.createEmptyBorder());
                 return button;
@@ -874,7 +874,7 @@ public class HomePageFrame implements ActionListener {
             @Override
             protected JButton createArrowButton() {
                 JButton button = new JButton();
-                button.setIcon(new ImageIcon(".\\Images\\down_arrow.png"));
+                button.setIcon(new ImageIcon(UIUtils.IMAGES_PATH + "down_arrow.png"));
                 button.setBackground(Color.WHITE);
                 button.setBorder(BorderFactory.createEmptyBorder());
                 return button;
@@ -921,7 +921,7 @@ public class HomePageFrame implements ActionListener {
             @Override
             protected JButton createArrowButton() {
                 JButton button = new JButton();
-                button.setIcon(new ImageIcon(".\\Images\\down_arrow.png"));
+                button.setIcon(new ImageIcon(UIUtils.IMAGES_PATH + "down_arrow.png"));
                 button.setBackground(Color.WHITE);
                 button.setBorder(BorderFactory.createEmptyBorder());
                 return button;
@@ -1001,7 +1001,7 @@ public class HomePageFrame implements ActionListener {
         closeButton.setBackground(UIUtils.BG_COLOR);
         closeButton.setFocusable(false);
         closeButton.setBorder(null);
-        ImageIcon imageIcon = new ImageIcon(".\\Images\\close.png");
+        ImageIcon imageIcon = new ImageIcon(UIUtils.IMAGES_PATH + "close.png");
         closeButton.setIcon(imageIcon);
         closeButton.addMouseListener(new java.awt.event.MouseAdapter() {
 

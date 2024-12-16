@@ -35,7 +35,7 @@ public class TransferFrame implements ActionListener {
     private RoundedButton transferButton = new RoundedButton();
     private RoundedButton cancelButton = new RoundedButton();
     private JLabel iconLabel = new JLabel();
-    private ImageIcon icon = new ImageIcon(".\\Images\\confirm.png");
+    private ImageIcon icon = new ImageIcon(UIUtils.IMAGES_PATH + "confirm.png");
 
     // input variables
     private String accountNum;
@@ -141,7 +141,7 @@ public class TransferFrame implements ActionListener {
         closeButton.setBackground(UIUtils.BG_COLOR);
         closeButton.setFocusable(false);
         closeButton.setBorder(null);
-        ImageIcon imageIcon = new ImageIcon(".\\Images\\close.png");
+        ImageIcon imageIcon = new ImageIcon(UIUtils.IMAGES_PATH + "close.png");
         closeButton.setIcon(imageIcon);
         closeButton.addMouseListener(new java.awt.event.MouseAdapter() {
 
@@ -234,7 +234,7 @@ public class TransferFrame implements ActionListener {
         closeButton.setBackground(UIUtils.BG_COLOR);
         closeButton.setFocusable(false);
         closeButton.setBorder(null);
-        ImageIcon imageIcon = new ImageIcon(".\\Images\\close.png");
+        ImageIcon imageIcon = new ImageIcon(UIUtils.IMAGES_PATH + "close.png");
         closeButton.setIcon(imageIcon);
         closeButton.addMouseListener(new java.awt.event.MouseAdapter() {
 

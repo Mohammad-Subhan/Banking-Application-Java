@@ -123,7 +123,7 @@ public class RegisterFrame implements ActionListener {
         closeButton.setBackground(UIUtils.BG_COLOR);
         closeButton.setFocusable(false);
         closeButton.setBorder(null);
-        ImageIcon imageIcon = new ImageIcon(".\\Images\\close.png");
+        ImageIcon imageIcon = new ImageIcon(UIUtils.IMAGES_PATH + "close.png");
         closeButton.setIcon(imageIcon);
         closeButton.addMouseListener(new java.awt.event.MouseAdapter() {
 
@@ -317,7 +317,7 @@ public class RegisterFrame implements ActionListener {
             @Override
             protected JButton createArrowButton() {
                 JButton button = new JButton();
-                button.setIcon(new ImageIcon(".\\Images\\down_arrow.png"));
+                button.setIcon(new ImageIcon(UIUtils.IMAGES_PATH + "down_arrow.png"));
                 button.setBackground(Color.WHITE);
                 button.setBorder(BorderFactory.createEmptyBorder());
                 return button;
@@ -327,7 +327,7 @@ public class RegisterFrame implements ActionListener {
             @Override
             protected JButton createArrowButton() {
                 JButton button = new JButton();
-                button.setIcon(new ImageIcon(".\\Images\\down_arrow.png"));
+                button.setIcon(new ImageIcon(UIUtils.IMAGES_PATH + "down_arrow.png"));
                 button.setBackground(Color.WHITE);
                 button.setBorder(BorderFactory.createEmptyBorder());
                 return button;
@@ -337,7 +337,7 @@ public class RegisterFrame implements ActionListener {
             @Override
             protected JButton createArrowButton() {
                 JButton button = new JButton();
-                button.setIcon(new ImageIcon(".\\Images\\down_arrow.png"));
+                button.setIcon(new ImageIcon(UIUtils.IMAGES_PATH + "down_arrow.png"));
                 button.setBackground(Color.WHITE);
                 button.setBorder(BorderFactory.createEmptyBorder());
                 return button;
@@ -391,7 +391,7 @@ public class RegisterFrame implements ActionListener {
             @Override
             protected JButton createArrowButton() {
                 JButton button = new JButton();
-                button.setIcon(new ImageIcon(".\\Images\\down_arrow.png"));
+                button.setIcon(new ImageIcon(UIUtils.IMAGES_PATH + "down_arrow.png"));
                 button.setBackground(Color.WHITE);
                 button.setBorder(BorderFactory.createEmptyBorder());
                 return button;
@@ -677,7 +677,7 @@ public class RegisterFrame implements ActionListener {
         closeButton.setBackground(UIUtils.BG_COLOR);
         closeButton.setFocusable(false);
         closeButton.setBorder(null);
-        ImageIcon imageIcon = new ImageIcon(".\\Images\\close.png");
+        ImageIcon imageIcon = new ImageIcon(UIUtils.IMAGES_PATH + "close.png");
         closeButton.setIcon(imageIcon);
         closeButton.addMouseListener(new java.awt.event.MouseAdapter() {
 

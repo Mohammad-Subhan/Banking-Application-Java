@@ -59,7 +59,7 @@ public class LoginFrame implements ActionListener {
         closeButton.setBackground(UIUtils.BG_COLOR);
         closeButton.setFocusable(false);
         closeButton.setBorder(null);
-        ImageIcon imageIcon = new ImageIcon(".\\Images\\close.png");
+        ImageIcon imageIcon = new ImageIcon(UIUtils.IMAGES_PATH + "close.png");
         closeButton.setIcon(imageIcon);
         closeButton.addMouseListener(new java.awt.event.MouseAdapter() {
 
@@ -164,7 +164,7 @@ public class LoginFrame implements ActionListener {
         panel.add(registerText);
 
         // -------------------- Logo Image ------------------------------------
-        ImageIcon logo = new ImageIcon(".\\Images\\logo.png");
+        ImageIcon logo = new ImageIcon(UIUtils.IMAGES_PATH + "logo.png");
         logoLabel.setIcon(logo);
         logoLabel.setBounds(-110, -55, 500, 500);
         panel.add(logoLabel);

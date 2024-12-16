@@ -18,7 +18,7 @@ public class ErrorDialogBox {
     private JPanel panel = new JPanel();
     private JLabel textLabel1 = new JLabel();
     private RoundedButton button = new RoundedButton();
-    private ImageIcon error = new ImageIcon(".\\Images\\cancel.png");
+    private ImageIcon error = new ImageIcon(UIUtils.IMAGES_PATH + "cancel.png");
     private JLabel errorLabel = new JLabel();
 
     public ErrorDialogBox(JFrame extFrame, String text) {

@@ -31,7 +31,7 @@ public class WithdrawFrame implements ActionListener {
     private RoundedButton withdrawButton = new RoundedButton();
     private RoundedButton cancelButton = new RoundedButton();
     private JLabel iconLabel = new JLabel();
-    private ImageIcon icon = new ImageIcon(".\\Images\\confirm.png");
+    private ImageIcon icon = new ImageIcon(UIUtils.IMAGES_PATH + "confirm.png");
 
     // input varaible
     private String amount;
@@ -106,7 +106,7 @@ public class WithdrawFrame implements ActionListener {
         closeButton.setBackground(UIUtils.BG_COLOR);
         closeButton.setFocusable(false);
         closeButton.setBorder(null);
-        ImageIcon imageIcon = new ImageIcon(".\\Images\\close.png");
+        ImageIcon imageIcon = new ImageIcon(UIUtils.IMAGES_PATH + "close.png");
         closeButton.setIcon(imageIcon);
         closeButton.addMouseListener(new java.awt.event.MouseAdapter() {
 
@@ -199,7 +199,7 @@ public class WithdrawFrame implements ActionListener {
         closeButton.setBackground(UIUtils.BG_COLOR);
         closeButton.setFocusable(false);
         closeButton.setBorder(null);
-        ImageIcon imageIcon = new ImageIcon(".\\Images\\close.png");
+        ImageIcon imageIcon = new ImageIcon(UIUtils.IMAGES_PATH + "close.png");
         closeButton.setIcon(imageIcon);
         closeButton.addMouseListener(new java.awt.event.MouseAdapter() {
 
