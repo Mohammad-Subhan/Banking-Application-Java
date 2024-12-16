@@ -3,6 +3,7 @@
 This is a simple **Banking Application** built using **Java** and **Swing**. The application provides a graphical user interface (GUI) for managing basic banking operations, such as logging in, account management, and performing transactions.
 
 ## Table of Contents
+
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
@@ -13,6 +14,7 @@ This is a simple **Banking Application** built using **Java** and **Swing**. The
 - [License](#license)
 
 ## Features
+
 This application includes the following features:
 
 - **User Login**: Secure login system with account number and PIN authentication.
@@ -22,12 +24,13 @@ This application includes the following features:
 - **Seamless Navigation**: Simple navigation between different screens (e.g., Home Page, Register Frame).
 
 ## Technologies Used
+
 - **Java**: 17.0.10
 - **Swing**: Java's built-in GUI toolkit for creating graphical interfaces.
 - **AWT**: Abstract Window Toolkit for UI event handling.
 
-
 ## Project Structure
+
 Here is the directory structure of the project:
 
 ```
@@ -53,47 +56,82 @@ Here is the directory structure of the project:
 ```
 
 ## Setup and Installation
+
 Follow these steps to set up and run the project:
 
 1. **Clone the Repository**:
+
    ```bash
    git clone https://github.com/Mohammad-Subhan/ApnaWallet-Banking-Application.git
    cd ApnaWallet-Banking-Application
    ```
 
-2. **Compile the Code**:
-   Change directory to src
+2. **Setup the Database**:
+   Update the database user and password credentials in the src/pack/Database.java file:
+
+   ```java
+   // Database.java
+   public class Database {
+       private static String USER = "your-database-username";
+       private static String PASSWORD = "your-database-password";
+   }
+   ```
+   Run the following sql script:
+   ```sql
+   CREATE DATABASE user_accounts;
+
+   USE user_accounts;
+
+   SET SQL_SAFE_UPDATES = false;
+
+   CREATE TABLE users(
+      accountNum varchar(100) PRIMARY KEY,
+      fullName varchar(200),
+      fatherName varchar(200),
+      dob varchar(50),
+      cnic varchar(50),
+      gender varchar(50),
+      email varchar(100),
+      phoneNum varchar(100),
+      pinCode varchar(50),
+      initialDeposit varchar(100),
+      balance varchar(100)
+   );
+   ```
+
+3. **Compile the Code**:
+   Change directory to src:
+
    ```bash
    cd src
    ```
+
    Use your preferred IDE or compile manually:
+
    ```bash
    javac run.java
    ```
 
-3. **Run the Application**:
+4. **Run the Application**:
    Execute the main script:
+
    ```bash
    java run.java
    ```
 
-4. **Assets Path**:
-   Ensure that the `Images` folder is correctly placed relative to your classpath, so image icons load properly.
-
-
 ## Usage
+
 - Launch the application to see the **Login Screen**.
 - Input a valid **Account Number** and **PIN** to log in.
 - Use the **Register** link to create a new account.
 - Navigate through the GUI to access other features.
 
-
 ## License
+
 This project is licensed under the [MIT License](LICENSE).
 
-
 ## Author
-Developed by **Mohammad-Subhan**.
 
+Developed by **Mohammad-Subhan**.
 
 Thank you for checking out the project!

@@ -8,6 +8,8 @@ import java.sql.ResultSet;
 public class Database {
 
     private static boolean isConnected = false;
+    private static String USER = "root";
+    private static String PASSWORD = "admin";
     private static Connection c;
     private static Statement s;
 
@@ -16,7 +18,7 @@ public class Database {
 
         if (!isConnected) {
             try {
-                c = DriverManager.getConnection("jdbc:mysql:///user_accounts", "root", "admin");
+                c = DriverManager.getConnection("jdbc:mysql:///user_accounts", USER, PASSWORD);
                 s = c.createStatement();
                 isConnected = true;
             } catch (Exception e) {
